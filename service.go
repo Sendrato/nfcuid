@@ -54,7 +54,7 @@ func (s *service) Start() {
 		errorExit(errors.New("Devices not found. Try to plug-in new device and restart"))
 	}
 
-	fmt.Printf("Found %d device:\n", len(readers))
+	fmt.Printf("FOUND %d device:\n", len(readers))
 	for i, reader := range readers {
 		fmt.Printf("[%d] %s\n", i+1, reader)
 	}
