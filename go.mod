@@ -1,4 +1,4 @@
-module github.com/taglme/nfcuid
+module github.com/Sendrato/nfcuid
 
 go 1.13
 
