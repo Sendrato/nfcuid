@@ -1,7 +1,8 @@
 repo_name: Sendrato/nfcuid
 report_id: 49a268afc038fd8427475597ddede2cc
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T15:18:45+00:00'
+timestamp: '2024-01-04T14:59:06+00:00'
 requested_by: aschoneveld
 provider: github
 branch: master
@@ -17,6 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/Sendrato/nfcuid
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -26,6 +28,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Sendrato/nfcuid
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -35,6 +38,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Sendrato/nfcuid/blob/master/.github/workflows/release.yaml
   detection_source: ".github/workflows/release.yaml"
   last_updated_by: qwelp
   last_updated_on: 2020-05-18 20:28:37.000000000 Z
